@@ -14,6 +14,7 @@ class Configuration implements ConfigurationInterface
     {
         $treeBuilder = new TreeBuilder();
         $treeBuilder->root('speaker-recognition-bundle');
+
         return $treeBuilder;
     }
 }
