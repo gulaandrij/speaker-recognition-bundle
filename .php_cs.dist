@@ -1,0 +1,13 @@
+<?php
+
+return PhpCsFixer\Config::create()
+    ->setRiskyAllowed(true)
+    ->setHideProgress(false)
+    ->setRules([
+        '@Symfony' => true,
+        '@DoctrineAnnotation' => true,
+        'array_syntax' => ['syntax' => 'short'],
+        'native_function_invocation' => true,
+        'array_indentation' => true,
+        'no_multiline_whitespace_around_double_arrow' => false
+    ]);
