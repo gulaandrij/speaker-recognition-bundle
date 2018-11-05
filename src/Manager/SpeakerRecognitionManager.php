@@ -1,6 +1,6 @@
 <?php
 
-namespace Onekit\SpeakerRecognitionBundle\Manager;
+namespace Lavulator\SpeakerRecognitionBundle\Manager;
 
 use GuzzleHttp\Client;
 use Symfony\Component\HttpFoundation\File\File;

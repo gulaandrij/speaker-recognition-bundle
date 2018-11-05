@@ -1,5 +1,5 @@
 {
-  "name": "onekit/speaker-recognition-bundle",
+  "name": "gulaandrij/speaker-recognition-bundle",
   "type": "symfony-bundle",
   "description": "Integrates Speaker Recognition API from Microsoft Cognitive Services with Symfony2.",
   "keywords": ["symfony2", "speech", "speaker", "recognition", "verify", "identify", "enroll", "voice"],
@@ -29,7 +29,7 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Onekit\\SpeakerRecognitionBundle\\": "src/"
+      "Lavulator\\SpeakerRecognitionBundle\\": "src/"
     }
   },
   "require-dev": {

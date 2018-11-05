@@ -1,5 +1,5 @@
 services:
   speaker_recognition:
-    class: Onekit\SpeakerRecognitionBundle\Manager\SpeakerRecognitionManager
+    class: Lavulator\SpeakerRecognitionBundle\Manager\SpeakerRecognitionManager
     arguments: ['%recognition_api_endpoint%', '%ocp_apim_subscription_key_1%']
     public: true
